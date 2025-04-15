@@ -9,8 +9,8 @@ import os
 
 # Read account and password
 load_dotenv()
-username = os.getenv("TOKYO_TECH_USERNAME")
-password = os.getenv("TOKYO_TECH_PASSWORD")
+username = os.getenv("USERNAME")
+password = os.getenv("PASSWORD")
 
 # Read your matirx
 matrix = pd.read_csv('Matrix.csv', index_col=0)
