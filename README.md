@@ -1,5 +1,5 @@
 # Science Tokyo Portal Auto Login Script
-
+[](icon.png)
 > This is a Python automation script using Selenium for automatically logging into the Science Tokyo Portal, including automatic input of username/password and matrix authentication code.
 
 ## Features
