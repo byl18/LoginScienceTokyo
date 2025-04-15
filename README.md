@@ -1,10 +1,10 @@
-# Tokyo Tech Portal Auto Login Script
+# Science Tokyo Portal Auto Login Script
 
-> This is a Python automation script using Selenium for automatically logging into the Tokyo Tech Portal, including automatic input of username/password and matrix authentication code.
+> This is a Python automation script using Selenium for automatically logging into the Science Tokyo Portal, including automatic input of username/password and matrix authentication code.
 
 ## Features
 
-This project allows fully automated login to the Tokyo Tech Portal:
+This project allows fully automated login to the Science Tokyo Portal:
 
 1. Automatically enter the portal login page
 2. Automatically click "Agree" for authentication method
@@ -17,7 +17,7 @@ This project allows fully automated login to the Tokyo Tech Portal:
 ## Project Structure
 
 ```
-login_tokyo_tech/
+LoginScienceTokyo/
 ├── login_tokyo_science.py       # Main Python script
 ├── Matrix.csv                   # Matrix code table (user-defined)
 ├── .env                         # Environment variable config (user-defined)
@@ -36,13 +36,13 @@ Then install all required packages:
 pip install -r requirements.txt
 ```
 
-### 2. Set your Tokyo Tech username and password
+### 2. Set your Science Tokyo username and password
 
 Create a `.env` file in the root directory:
 
 ```
-TOKYO_TECH_USERNAME=your_id_here
-TOKYO_TECH_PASSWORD=your_password_here
+USERNAME=your_id_here
+PASSWORD=your_password_here
 ```
 
 > Warning: Keep `.env` file private and NEVER upload it to GitHub.
