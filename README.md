@@ -44,8 +44,8 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 
 ```
-USERNAME=your_id_here
-PASSWORD=your_password_here
+USERNAME=your_username
+PASSWORD=your_password
 ```
 
 > Warning: Keep `.env` file private and NEVER upload it to GitHub.
